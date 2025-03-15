@@ -81,7 +81,7 @@ createButton("Verificar Key", UDim2.new(0.1, 0, 0.6, 0), function()
     
     if key == getHiddenKey() then
         game.StarterGui:SetCore("SendNotification", {Title = "Sucesso!", Text = "Key correta!", Duration = 2})
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/Dead-Rails-SpiderXHub-Script/refs/heads/main/SpiderXHub%202.0.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SpineWare/UniversalLoader/refs/heads/main/Load"))()
         ScreenGui:Destroy()
     else
         game.StarterGui:SetCore("SendNotification", {Title = "Erro!", Text = "Key inválida!", Duration = 2})
